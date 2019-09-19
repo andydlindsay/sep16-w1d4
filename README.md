@@ -54,7 +54,7 @@ myHigherOrderFunction(myFunction);
 
 ```js
 const myHigherOrderFunction = function(callback) {
-  callback(); // equivalent to myFunction()
+  callback();
 }
 myHigherOrderFunction(function() {
   // do something
