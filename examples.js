@@ -1,10 +1,8 @@
 const name = 'Andy';
 const age = 38;
 const awake = false;
-// awake = true;
 
 function greeting(text2) {
-  const anotherVar = 'something else';
   const output = `hello ${text2}!`;
   console.log(output);
 }
@@ -22,16 +20,3 @@ console.log(aThirdFn);
 console.log(anotherFunc(99));
 
 // console.log(doubleIt);
-
-
-
-
-
-
-
-
-
-
-
-
-// *
